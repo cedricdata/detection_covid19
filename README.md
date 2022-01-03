@@ -40,6 +40,7 @@ Cette modélisation fait appel à la technique d'augmentation d'image qui permet
 
 # PARTIE 4: MODELISATION
 
+**Transfer learning**\
 Cette modélisation est basé sur le principe du transfer learning qui consiste à utiliser un modèle pré-entrainé sur des centaines de milliers d'images.\
 VGG16, un modèle pré-entrainé, est utlisé pour extraire les caractéristiques des radiographies.
 
