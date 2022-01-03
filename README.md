@@ -45,10 +45,27 @@ Cette modélisation est basé sur le principe du transfer learning qui consiste 
 VGG16, un modèle pré-entrainé, est utlisé pour extraire les caractéristiques des radiographies.
 
 # PARTIE 5: EVALUATION
+**Matrice de confusion**\
+Accuracy: 96%
 
-- Matrice de confusion
-- Rapport de classication
-- Précision et perte
+**Rapport de classication**
+- Classe Covid
+  - Précision: 99%
+  - Recall: 99%
+  - F1 Score: 99% 
+  
+- Classe Normal
+  - Précision: 90%
+  - Recall: 99%
+  - F1 Score: 94%
+  
+- Classe Pneumonie
+  - Précision: 98%
+  - Recall: 89%
+  - F1 Score: 93%  
+    
+**Précision et perte**\
+Les courbes de precision et de perte convergent à la fois sur les données d'entrainement et sur les données de test.
 
 # CONCLUSION
 La sensibilité et la valeure prédictive positive sont élevées pour toutes les classes, en particuliers pour la classe COVID.
