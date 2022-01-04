@@ -42,7 +42,7 @@ Cette modélisation fait appel à la technique d'augmentation d'image qui permet
 
 **Transfer learning**\
 Cette modélisation est basé sur le principe du transfer learning qui consiste à utiliser un modèle pré-entrainé sur des centaines de milliers d'images.\
-VGG16, un modèle pré-entrainé, est utlisé pour extraire les caractéristiques des radiographies.
+VGG16, un modèle pré-entrainé, est utlisé pour extraire les caractéristiques des radiographies. Une couche dense de réseaux de neurones, entièrement connectés, est mise en place pour réaliser la classification des radiographies.
 
 # PARTIE 5: EVALUATION
 **Matrice de confusion**\
