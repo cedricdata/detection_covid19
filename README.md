@@ -12,7 +12,7 @@ Mettre en place un modèle prédictif de deep learning, chargé de classer les r
 
 # PARTIE 2: Analyse exploratoire de données (EDA)
 
-Analyse du jeu de données
+**Analyse du jeu de données**
 
 Le jeu de données brutes, téléchargé sur le site Kaggle, est composé de clichés radiographiques pulmonaires, répartis dans 3 dossiers.
 
