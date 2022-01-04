@@ -2,7 +2,7 @@
 
 # PARTIE 1: Définition de l'objectif du projet
 
-Mettre en place un modèle prédictif, chargé de classer les radiographies pulmonaires, dans 3 catégories différentes appelées classe.
+Mettre en place un modèle prédictif de deep learning, chargé de classer les radiographies pulmonaires, dans 3 catégories différentes appelées classe.
 
 **Classe covid19**: Pour les patients atteints de la covid19
 
