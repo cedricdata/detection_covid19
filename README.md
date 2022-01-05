@@ -2,7 +2,7 @@
 
 # PARTIE 1: Définition de l'objectif du projet
 
-Mettre en place un modèle prédictif de deep learning, chargé de classer les radiographies pulmonaires, dans 3 catégories différentes appelées classe.
+Mettre en place un modèle prédictif de deep learning, chargé de classer les radiographies pulmonaires, dans 3 catégories différentes appelées 'classe'.
 
 **Classe covid19**: Pour les patients atteints de la covid19
 
@@ -22,7 +22,7 @@ Le jeu de données brutes, téléchargé sur le site Kaggle, est composé de cli
 
 **Dossier Viral Pneumonia**: Ce dossier contient les radiographies pulmonaires de patients atteints de pneumonie virale.
 
-Dans le jeu de données brut, les radiographies présentent les résolutions suivantes:
+Dans le jeu de données brutes, les radiographies présentent les résolutions suivantes:
 * 256x256
 * 331x331
 * 160x187x3
@@ -30,7 +30,7 @@ Dans le jeu de données brut, les radiographies présentent les résolutions sui
 * 1024x1024
 * 1024x1024x3
 
-L'objectif de cette partie est de grouper toutes les images dans un dataframe afin de faciliter leur traitement.  
+L'objectif de cette partie est de regrouper toutes les images dans un dataframe afin de faciliter leur traitement.  
 Cette opération nécéssite d'avoir des radiographies de même résolution, celle choisie pour l'ensemble des images est de 256x256.
 
 # PARTIE 3: DATA-PREPROCESSING
