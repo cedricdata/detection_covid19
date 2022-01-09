@@ -36,7 +36,7 @@ Cette opération nécéssite d'avoir des radiographies de même résolution, cel
 # PARTIE 3: DATA-PREPROCESSING
 
 **Augmentation d'image**\
-Cette modélisation fait appel à la technique d'augmentation d'image qui permet d'enrichir le jeu de données et de réduire le phénomène d'overfitting.
+La technique d'augmentation d'image permet d'enrichir le jeu de données et de réduire le phénomène d'overfitting.
 
 # PARTIE 4: MODELISATION
 
@@ -71,4 +71,4 @@ Les courbes de precision et de perte convergent à la fois sur les données d'en
 La recall et la précision sont élevés pour toutes les classes, en particuliers pour la classe COVID.
 
 La sensibilité est de 99% sur la classe COVID, par conséquent, le taux de faux négatif est extrêmement faible.\
-L'analyse de cliché radiographique à partir d'un modèle basé sur des réseaux de neurones semble très fiable pour exclure la présence de la maladie chez un patient.
+L'analyse de cliché radiographique à partir d'un modèle basé sur des réseaux de neurones semble fiable pour détecter la présence de la maladie chez un patient.
